@@ -3,8 +3,8 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include "src/read_masses.hpp"
-#include "src/calculate_fuel.hpp"
+#include "read_masses.hpp"
+#include "calculate_fuel.hpp"
 
 using namespace std;
 
