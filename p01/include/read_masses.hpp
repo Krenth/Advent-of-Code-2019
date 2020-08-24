@@ -8,6 +8,10 @@
 
 using namespace std;
 
+/** Read Masses
+ * Opens and parses a CSV file, which defines the part masses in each line, into a vector<int>.
+ * 
+ */
 void read_masses (const string &filename, vector<int> &masses)
 {   
     fstream csvin;

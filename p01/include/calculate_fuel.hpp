@@ -6,6 +6,11 @@
 
 using namespace std;
 
+/** Calculate Additional Fuel
+ * Calculates the additional fuel required for the part specific fuel.
+ * 
+ * COMMENT THIS FUNCTION OUT FOR PART ONE
+ */
 int calculate_additional_fuel (int partFuel)
 {
     int additionalFuel = partFuel / 3 - 2;
@@ -20,6 +25,10 @@ int calculate_additional_fuel (int partFuel)
     return additionalFuel;
 }
 
+/** Calculate Fuel
+ * Calculates the part specific fuel requirements, and then the total fuel required for launch.
+ * 
+ */
 int calculate_fuel (vector<int> &masses)
 {
     int partFuel;
@@ -28,13 +37,13 @@ int calculate_fuel (vector<int> &masses)
     for (vector<int>::iterator it = begin(masses); it != end(masses); ++it)
     {
         partFuel = *it / 3 - 2;
-        totalFuel += partFuel + calculate_additional_fuel(partFuel);
+        
+        // totalFuel += partFuel                                        // Part One
+        totalFuel += partFuel + calculate_additional_fuel(partFuel);    // Part Two
+        
         cout << *it << ": " << partFuel + calculate_additional_fuel(partFuel) << endl;
     }
     cout << "Calculated Required Fuel for Parts!" << endl << endl;
     return totalFuel;
 }
-
-
-
 #endif
