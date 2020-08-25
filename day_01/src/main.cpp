@@ -11,7 +11,7 @@ using namespace std;
 int main ()
 {
     string file;
-    cout << "Enter file name: ";
+    cout << "Enter file name: ";    // Enter the CSV file with the masses listed (one per line).
     cin >> file;
     cout << endl;
 
