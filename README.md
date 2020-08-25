@@ -7,4 +7,6 @@ For more information about Advent of Code, you can check [About Advent of Code](
 
 For discussions and help, please check out the [subreddit](https://www.reddit.com/r/adventofcode/).
 
-Prompts for the challenges will be provided, both in their respective README.md files as well as a separate prompt.txt file. The correct answers will be redacted!
+Prompts for the challenges are provided, both in their respective README.md files as well as a separate prompt.txt file. The correct answers are redacted!
+
+_**PLEASE NOTE THAT THE ALPHA BRANCH CONTAINS UNFINISHED CODE.**_ It will be merged with master, after each Day is completed.
