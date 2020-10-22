@@ -47,4 +47,3 @@ int main ()
     delete [] intcode;
     delete [] result;
 }
-
